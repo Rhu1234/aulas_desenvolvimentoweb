@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var listanomes = []
+    var nome1 = String(prompt(`digite o primeiro nome`))
+    var nome2 = String(prompt(`digite o segundo nome`))
+    var nome3 = String(prompt(`digite o terceiro nome`))
+    var nome4 = String(prompt(`digite o quarto nome`))
+
+    listanomes.push(nome1, nome2, nome3, nome4)
+
+    document.writeln(`..............<br>`)
+    document.writeln(`........... array inicial........ <br>`)
+    document.writeln(listanomes)
+
+
+    document.writeln(`..............<br>`)
+    document.writeln(`........... tamanho da array........ <br>`)
+    document.writeln(listanomes.length)
+
+    document.writeln(`..............<br>`)
+    document.writeln(`........... array ordenado........ <br>`)
+    document.writeln(listanomes.sort())
+
+    document.writeln(`..............<br>`)
+    document.writeln(`........... array ordenado........ <br>`)
+    document.writeln(listanomes.splice())
+    
+    document.writeln(`..............<br>`)
+    document.writeln(`........... array ordenado........ <br>`)
+    document.writeln(listanomes.splice())
+</script>
+</html>
