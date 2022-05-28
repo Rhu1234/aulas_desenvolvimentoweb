@@ -1,0 +1,25 @@
+baixar o git bash-
+
+abrir o git bash
+
+configurar o git bash
+
+configurar nome de usuario
+
+-git confg --global user.name Rhuandro
+
+
+  -configurar e mail de usuario
+
+   -git confg --global user.email "rhuandrosantana@gmail.com"
+
+criar repositorio no github
+
+criar . git
+
+ -git init
+referenciar repositorio remoto no repositorio local
+git status - ver status dos arquivos/pastas
+git add . - prepara arquivos para subir no github
+git commit-m "mensagem" - adiciona mensagem para evidenciar o commit
+git push
